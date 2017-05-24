@@ -22,9 +22,10 @@ integer variable inside the function, then concatenates the given year
 number with the "accident" sting and includes the file format, too.
 }
 \examples{
+\dontrun{
 make_filename(2013)
 make_filename("2013")
 make_filename(c(2013, 2014))
-
+}
 }
 
