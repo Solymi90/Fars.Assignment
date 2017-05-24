@@ -27,9 +27,10 @@ There is an error handling with a tryCatch() function. In case of any
    errors, it results in a warning.
 }
 \examples{
+\dontrun{
 fars_read_years(2015)
 fars_read_years(c(2013, 2014))
 fars.year <- fars_read_years(2013)
-
+}
 }
 
