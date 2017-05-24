@@ -1,0 +1,29 @@
+---
+title: "Fars Package Details"
+author: "Gabor Solymosi"
+date: "`r Sys.Date()`"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{Fars Package Details}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+## Package Info
+
+The 'Fars.Assignment' package has been created to support the last assignment in the Building R Packages course on Coursera. The package contains 5 functions, which can be used to read and analyize datasets from the "Fatality Analysis Reporting System". These functions are the following:
+- fars_map_state
+- fars_read
+- fars_read_years
+- fars_summarize_years
+- make_filename
+
+The package can be downloaded from GitHub repository.
+
+## Functionality
+
+The manuals for the fucntions included in the package can be found under the /man directory with examples on how to use them.
+
+
+
+
