@@ -171,8 +171,10 @@ fars_summarize_years <- function(years) {
 #'    stops with an invisible NULL result.
 #' 
 #' @examples
+#' \dontrun{
 #' fars_map_state(1, 2013)
 #' fars_map_state(8, 2015)
+#' }
 #'
 #' @export
 fars_map_state <- function(state.num, year) {
