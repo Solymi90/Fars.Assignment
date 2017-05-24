@@ -26,8 +26,9 @@ There is an "if" condition in the beginning, which checks if the given
    file path exists, results in an error if returns FALSE.
 }
 \examples{
+\dontrun{
 fars_read("accident_2013.csv.bz2")
 fars.df <- fars_read("accident_2014.csv.bz2")
-
+}
 }
 
