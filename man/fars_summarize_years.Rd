@@ -23,9 +23,10 @@ year-specific FARS data, then groups the observations by year and month, and
 summarizes the number of accidents into a dataframe.
 }
 \examples{
+\dontrun{
 fars_summarize_years(2015)
 fars_summarize_years(c(2013, 2014))
 fars.summary <- fars_summarize_years(2013)
-
+}
 }
 
