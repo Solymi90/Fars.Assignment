@@ -33,8 +33,9 @@ There is an "if" statement verifying that the given \code{state.num}
    stops with an invisible NULL result.
 }
 \examples{
+\dontrun{
 fars_map_state(1, 2013)
 fars_map_state(8, 2015)
-
+}
 }
 
