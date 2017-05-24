@@ -23,8 +23,10 @@
 #'    file path exists, results in an error if returns FALSE. 
 #' 
 #' @examples
+#' \dontrun{
 #' fars_read("accident_2013.csv.bz2")
 #' fars.df <- fars_read("accident_2014.csv.bz2")
+#' }
 #'
 #' @export
 fars_read <- function(filename) {
@@ -52,9 +54,11 @@ fars_read <- function(filename) {
 #'    format of the FARS filenames.
 #'    
 #' @examples
+#' \dontrun{
 #' make_filename(2013)
 #' make_filename("2013")
 #' make_filename(c(2013, 2014))
+#' }
 #'
 #' @export
 make_filename <- function(year) {
@@ -86,9 +90,11 @@ make_filename <- function(year) {
 #'    errors, it results in a warning.
 #' 
 #' @examples
+#' \dontrun{
 #' fars_read_years(2015)
 #' fars_read_years(c(2013, 2014))
 #' fars.year <- fars_read_years(2013)
+#' }
 #'
 #' @export
 fars_read_years <- function(years) {
@@ -126,9 +132,11 @@ fars_read_years <- function(years) {
 #'    for the given years.
 #'    
 #' @examples
+#' \dontrun{
 #' fars_summarize_years(2015)
 #' fars_summarize_years(c(2013, 2014))
 #' fars.summary <- fars_summarize_years(2013)
+#' }
 #'
 #' @export
 fars_summarize_years <- function(years) {
