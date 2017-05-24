@@ -1,5 +1,30 @@
----
-output: github_document
----
+[![Build Status](https://travis-ci.org/Solymi90/Fars.Assignment.svg?branch=master)](https://travis-ci.org/Solymi90/Fars.Assignment)
 
-[![Travis-CI Build Status](https://travis-ci.org/.svg?branch=master)](https://travis-ci.org/)
+# Fars.Assignment
+
+## An R Package for the last assignment in Building R Packages on Coursera
+## Functions for the "Fatality Analysis Reporting System"
+
+
+This package provides functions to read and analyze "Fatality Analysis Reporting System" datasets. The package contains:
+
+* `fars_map_state`:  Plot accidents to a map of a specific state for a given year
+* `fars_read`:  Read "Fatality Analysis Reporting System" datasets
+* `fars_read_years`:  Read "Fatality Analysis Reporting System" data specifying the year number
+* `fars_summarize_years`:  Summarize the number of accidents by month and year in "Fatality Analysis Reporting System" data specifying the year numbers
+* `make_filename`:  Create a default filename for a given year 
+
+
+## Installation
+
+To install the package type the following (the development version from Github):
+
+```
+library(devtools)
+install_github("Solymi90/Fars.Assignment")
+library(Fars.Assignment)
+```
+
+## How to Use This Package
+
+For some ideas on getting started with analyzing FARS data, [check out the FARS's official website](https://www.nhtsa.gov/Data/Fatality-Analysis-Reporting-System-(FARS)). 
